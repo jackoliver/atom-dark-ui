@@ -1,7 +1,7 @@
 @import "ui-variables";
-@tab-radius: 3px;
+@tab-radius: 0px;
 @modified-icon-width: 8px;
-@tab-skew: 30deg;
+@tab-skew: 0deg;
 @tab-top-padding: 5px;
 @tab-bottom-border-height: 5px;
 @tab-border: 1px solid @tab-border-color;
@@ -47,7 +47,7 @@
     border: none;
 
     &, &:before, &:after {
-      background-image: -webkit-linear-gradient(top, lighten(#333, 7%), #333);
+      //background-image: -webkit-linear-gradient(top, lighten(#333, 7%), #333);
       height: @tab-height;
     }
 
@@ -113,11 +113,13 @@
     .close-icon {
       line-height: @tab-height - 1px;
       color: @text-color;
+      opacity: 1;
     }
 
     &, &:before, &:after {
-      background-image: -webkit-linear-gradient(top, lighten(@tab-background-color-active, 7%), @tab-background-color-active);
+      //background-image: -webkit-linear-gradient(top, lighten(@tab-background-color-active, 7%), @tab-background-color-active);
       height: @tab-height + 1px;
+      background-color: @orange;
     }
 
     &:before {
