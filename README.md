@@ -1,4 +1,4 @@
-# Atom Dark UI theme
+# Atom Dark UI theme (Observify)
 
 A dark UI theme for Atom.
 
